@@ -1,0 +1,36 @@
+{
+	"name": "pretty-checkbox",
+	"version": "1.0",
+	"description": "A checkbox item plugin. Choose 16 different type of checkboxes",
+	"keywords": ["checkbox"],
+	"homepage": "https://github.com/fistle/oracle-apex-pretty-checkbox-item-plugin.git",
+	"bugs": {
+		"url": "https://github.com/fistle/oracle-apex-pretty-checkbox-item-plugin/issues",
+		"email": "davielang@gmail.com"
+	},
+	"license": "MIT",
+	"commercial": "No",
+	"author": {
+		"name": "David Lang",
+		"email": "davielang@gmail.com",
+		"url": "https://oracleapexstuff.blogspot.com/2022/09/oracle-apex-pretty-checkbox-item-plugin.html",
+		"twitter": "Davie_Lang"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/fistle/oracle-apex-pretty-checkbox-item-plugin.git"
+	},
+	"oracle": {
+		"versions": ["11.2.0.1", "12.1.0.1"],
+		"apex": {
+			"versions": ["22.1.0"],
+			"plugin": {
+				"internalName": "GLASGOW-ANIMATED-YES-NO-BUTTON",
+				"type": "item",
+				"demo": "https://kjwvivmv0n5reuj-apexkqor.adb.uk-london-1.oraclecloudapps.com/ords/r/test1/apex-plugins/on-off-animtaed-button",
+                "previewImage" : "https://github.com/fistle/oracle-apex-pretty-checkbox-item-plugin/blob/main/pretty-checkbox1.gif?raw=true'"
+
+			}
+		}
+	}
+}
